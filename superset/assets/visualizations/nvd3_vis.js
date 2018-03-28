@@ -760,6 +760,11 @@ function nvd3Vis(slice, payload) {
         }
       }
     }
+    if (fd.y_axis_hidtext) {
+      d3.selectAll('.nv-y text').attr('display', 'none');
+      d3.selectAll('.nv-y1 text').attr('display', 'none');
+      d3.selectAll('.nv-y2 text').attr('display', 'none');
+    }
     return chart;
   };
 

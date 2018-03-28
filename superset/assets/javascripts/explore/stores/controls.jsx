@@ -1412,6 +1412,14 @@ export const controls = {
     description: t('Whether to display the min and max values of the Y axis'),
   },
 
+  y_axis_hidtext: {
+    type: 'CheckboxControl',
+    label: t('Y hid text'),
+    renderTrigger: true,
+    default: true,
+    description: t('Whether to display the text of the Y axis'),
+  },
+
   rich_tooltip: {
     type: 'CheckboxControl',
     label: t('Rich Tooltip'),

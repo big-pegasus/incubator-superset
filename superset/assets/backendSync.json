@@ -2263,6 +2263,13 @@
       "default": true,
       "description": "Whether to display the min and max values of the Y axis"
     },
+    "y_axis_hidtext": {
+      "type": "CheckboxControl",
+      "label": "Y hid text",
+      "renderTrigger": true,
+      "default": false,
+      "description": "Whether to hid the text of Y axis"
+    },
     "rich_tooltip": {
       "type": "CheckboxControl",
       "label": "Rich Tooltip",
